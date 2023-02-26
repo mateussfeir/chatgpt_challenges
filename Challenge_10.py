@@ -2,7 +2,7 @@
 # (reads the same backward as forward) and False otherwise.
 
 def is_palindrome(s):
-    return s == s[::-1]
+    return s == s[::-1] # The basic syntax for slicing is sequence[start:end:step]
 
 
 user_input = input("User input: ")
